@@ -1,0 +1,333 @@
+# 2022-07-20T09:40:21.087Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_button_is_displayed"
+    start_time {
+      seconds: 1658310008
+      nanos: 304000000
+    }
+    end_time {
+      seconds: 1658310010
+      nanos: 251000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-grid_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_horizontal_list_button_displays_horizontal_list"
+    start_time {
+      seconds: 1658310010
+      nanos: 556000000
+    }
+    end_time {
+      seconds: 1658310012
+      nanos: 292000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\' doesn\'t match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\nGot: view.getGlobalVisibleRect() returned empty rectangle\nView Details: RecyclerView{id=2131230949, res-name=horizontal_recycler_view, visibility=VISIBLE, width=720, height=0, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@d841c99, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=673.0, child-count=0}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:61)\n... 29 trimmed\nCaused by: junit.framework.AssertionFailedError: \'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\' doesn\'t match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\nGot: view.getGlobalVisibleRect() returned empty rectangle\nView Details: RecyclerView{id=2131230949, res-name=horizontal_recycler_view, visibility=VISIBLE, width=720, height=0, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@d841c99, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=673.0, child-count=0}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:223)\nat android.app.ActivityThread.main(ActivityThread.java:7815)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1094)"
+    error_type: "junit.framework.AssertionFailedError"
+    stack_trace: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\' doesn\'t match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\nGot: view.getGlobalVisibleRect() returned empty rectangle\nView Details: RecyclerView{id=2131230949, res-name=horizontal_recycler_view, visibility=VISIBLE, width=720, height=0, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@d841c99, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=673.0, child-count=0}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.dogglers.ButtonTests.clicking_horizontal_list_button_displays_horizontal_list(ButtonTests.kt:61)\n... 29 trimmed\nCaused by: junit.framework.AssertionFailedError: \'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\' doesn\'t match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)\nGot: view.getGlobalVisibleRect() returned empty rectangle\nView Details: RecyclerView{id=2131230949, res-name=horizontal_recycler_view, visibility=VISIBLE, width=720, height=0, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=android.widget.FrameLayout$LayoutParams@d841c99, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=673.0, child-count=0}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loop(Looper.java:223)\nat android.app.ActivityThread.main(ActivityThread.java:7815)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1094)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-clicking_horizontal_list_button_displays_horizontal_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_grid_list_button_displays_grid_list"
+    start_time {
+      seconds: 1658310013
+      nanos: 212000000
+    }
+    end_time {
+      seconds: 1658310014
+      nanos: 724000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-clicking_grid_list_button_displays_grid_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_vertical_list_button_displays_vertical_list"
+    start_time {
+      seconds: 1658310015
+      nanos: 536000000
+    }
+    end_time {
+      seconds: 1658310016
+      nanos: 992000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-clicking_vertical_list_button_displays_vertical_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_list_button_is_displayed"
+    start_time {
+      seconds: 1658310017
+      nanos: 882000000
+    }
+    end_time {
+      seconds: 1658310018
+      nanos: 624000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-horizontal_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_list_button_is_displayed"
+    start_time {
+      seconds: 1658310018
+      nanos: 829000000
+    }
+    end_time {
+      seconds: 1658310019
+      nanos: 696000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\logcat-com.example.dogglers.ButtonTests-vertical_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\abdul\\Downloads\\Compressed\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-A032M - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
